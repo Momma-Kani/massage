@@ -126,7 +126,7 @@ const App: React.FC = () => {
         className="relative min-h-screen flex items-center justify-center"
       >
         <img
-          src="https://images.pexels.com/photos/31234759/pexels-photo-31234759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          src="https://images.pexels.com/photos/28843961/pexels-photo-28843961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           alt="Serene Hawaiian massage setting"
           className="absolute inset-0 w-full h-full object-cover"
         />
