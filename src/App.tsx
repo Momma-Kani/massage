@@ -269,7 +269,7 @@ export default function App() {
         >
           <div className="absolute inset-0 bg-black/40"></div>
           <blockquote className="relative z-10 text-white text-3xl md:text-4xl italic text-center px-4" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-            “The body is a sacred garment.” — Martha Graham
+            "The body is a sacred garment." — Martha Graham
           </blockquote>
         </section>
 
@@ -368,7 +368,7 @@ export default function App() {
             Book Your Lomi Lomi Experience
           </h2>
           <p className="text-white/70 mt-4 max-w-xl mx-auto">
-            Appointments available 7 days a week. Private sessions and couples
+            Appointments available 5 days a week. Private sessions and couples
             packages welcome.
           </p>
           <div className="mt-8 flex flex-wrap gap-4 justify-center">
