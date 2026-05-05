@@ -73,7 +73,7 @@ const App: React.FC = () => {
             className="text-2xl font-semibold tracking-wide text-[#C9A96E]"
             style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
-            Lomi
+            Limi Kai
           </button>
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => {
@@ -139,7 +139,7 @@ const App: React.FC = () => {
             className="text-6xl md:text-7xl lg:text-8xl font-semibold mb-6"
             style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
-            Lomi
+            Limi Kai
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-10 max-w-xl mx-auto leading-relaxed">
             Experience Hawaii's finest Lomi Lomi Massage.
@@ -185,7 +185,7 @@ const App: React.FC = () => {
             Rooted in the belief that tension held in the body mirrors tension
             held in the mind, our skilled therapists use long, flowing strokes to
             restore harmony, release blockages, and reconnect you with your
-            deepest self. Every session at Lomi is a journey. We honor the aloha
+            deepest self. Every session at Limi Kai is a journey. We honor the aloha
             spirit in everything we do — from the warm kukui nut oil we use to
             the gentle rhythm of our hands, inspired by the ocean waves of the
             islands.
@@ -341,7 +341,7 @@ const App: React.FC = () => {
               className="text-2xl font-semibold text-[#C9A96E]"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
-              Lomi
+              Limi Kai
             </h3>
             <p className="mt-3 text-white/60 text-sm leading-relaxed">
               Hawaii's finest Lomi Lomi massage.
@@ -375,12 +375,12 @@ const App: React.FC = () => {
               Contact
             </h4>
             <p className="text-white/60 text-sm">Maui, Hawaii</p>
-            <p className="text-white/60 text-sm mt-1">hello@lomimassage.com</p>
+            <p className="text-white/60 text-sm mt-1">hello@limikaimassage.com</p>
           </div>
         </div>
         <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/10 text-center">
           <p className="text-white/40 text-sm">
-            &copy; 2024 Lomi. All rights reserved.
+            &copy; 2024 Limi Kai. All rights reserved.
           </p>
         </div>
       </footer>
