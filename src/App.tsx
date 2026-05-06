@@ -70,7 +70,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <button
             onClick={() => scrollToSection('hero')}
-            className="text-2xl font-semibold tracking-wide text-green-700"
+            className="text-2xl font-semibold tracking-wide text-amber-600"
             style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
             Lomi Kai
@@ -83,7 +83,7 @@ const App: React.FC = () => {
                   <button
                     key={link}
                     onClick={() => scrollToSection('book')}
-                    className="px-5 py-2 bg-green-700 text-white rounded-full text-sm font-semibold tracking-wide hover:bg-green-800 transition-colors"
+                    className="px-5 py-2 bg-amber-600 text-white rounded-full text-sm font-semibold tracking-wide hover:bg-amber-700 transition-colors"
                   >
                     {link}
                   </button>
@@ -132,7 +132,7 @@ const App: React.FC = () => {
         />
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 text-center text-white px-6">
-          <p className="text-sm md:text-base uppercase tracking-[0.25em] text-green-700 mb-4">
+          <p className="text-sm md:text-base uppercase tracking-[0.25em] text-amber-600 mb-4">
             HAWAII'S FINEST
           </p>
           <h1
@@ -146,7 +146,7 @@ const App: React.FC = () => {
           </p>
           <button
             onClick={() => scrollToSection('book')}
-            className="px-8 py-3 bg-green-700 text-white rounded-full text-base font-semibold tracking-wide hover:bg-green-800 transition-colors shadow-lg"
+            className="px-8 py-3 bg-amber-600 text-white rounded-full text-base font-semibold tracking-wide hover:bg-amber-700 transition-colors shadow-lg"
           >
             Book Your Session
           </button>
@@ -163,7 +163,7 @@ const App: React.FC = () => {
           />
         </div>
         <div className="p-12 md:p-16 flex flex-col justify-center">
-          <p className="text-green-700 tracking-widest text-sm uppercase">
+          <p className="text-amber-600 tracking-widest text-sm uppercase">
             OUR STORY
           </p>
           <h2
@@ -190,7 +190,7 @@ const App: React.FC = () => {
             the gentle rhythm of our hands, inspired by the ocean waves of the
             islands.
           </p>
-          <div className="w-16 h-0.5 bg-green-700 mt-6"></div>
+          <div className="w-16 h-0.5 bg-amber-600 mt-6"></div>
         </div>
       </section>
 
@@ -198,7 +198,7 @@ const App: React.FC = () => {
       <section id="treatments" className="bg-white py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-green-700 tracking-widest text-sm uppercase">
+            <p className="text-amber-600 tracking-widest text-sm uppercase">
               WHAT WE OFFER
             </p>
             <h2
@@ -230,7 +230,7 @@ const App: React.FC = () => {
                   <p className="text-[#2C2420]/70 text-sm leading-relaxed mb-4">
                     {treatment.description}
                   </p>
-                  <p className="text-green-700 font-semibold text-sm tracking-wide">
+                  <p className="text-amber-600 font-semibold text-sm tracking-wide">
                     {treatment.duration}
                   </p>
                 </div>
@@ -243,7 +243,7 @@ const App: React.FC = () => {
       {/* Lomi Lomi History Callout Section */}
       <section className="bg-[#2C2420] text-white py-20 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-green-700 tracking-widest text-sm uppercase text-center md:text-left">
+          <p className="text-amber-600 tracking-widest text-sm uppercase text-center md:text-left">
             DID YOU KNOW?
           </p>
           <div className="mt-6 md:flex md:items-center md:gap-12">
@@ -279,7 +279,7 @@ const App: React.FC = () => {
       <section className="bg-[#FAF7F2] py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-green-700 tracking-widest text-sm uppercase">
+            <p className="text-amber-600 tracking-widest text-sm uppercase">
               KIND WORDS
             </p>
             <h2
@@ -298,7 +298,7 @@ const App: React.FC = () => {
                 <p className="italic text-[#2C2420]/80 leading-relaxed">
                   &ldquo;{testimonial.quote}&rdquo;
                 </p>
-                <div className="w-8 h-0.5 bg-green-700 mt-4 mb-3"></div>
+                <div className="w-8 h-0.5 bg-amber-600 mt-4 mb-3"></div>
                 <p className="text-sm font-semibold text-[#2C2420]">
                   &mdash; {testimonial.author}
                 </p>
@@ -311,7 +311,7 @@ const App: React.FC = () => {
       {/* Booking CTA Section */}
       <section
         id="book"
-        className="bg-gradient-to-br from-green-700 to-green-800 py-20 px-6 text-center"
+        className="bg-gradient-to-br from-amber-600 to-amber-700 py-20 px-6 text-center"
       >
         <div className="max-w-3xl mx-auto">
           <h2
@@ -338,7 +338,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
           <div>
             <h3
-              className="text-2xl font-semibold text-green-700"
+              className="text-2xl font-semibold text-amber-600"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
               Lomi Kai
